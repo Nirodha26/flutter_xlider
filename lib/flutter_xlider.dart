@@ -2028,6 +2028,8 @@ class _FlutterSliderState extends State<FlutterSlider>
         top = 0;
         left = 0;
         right = 0;
+        bottom =
+            0; // Enables setting bottom position for displaying tooltip bottom
         break;
       case FlutterSliderTooltipDirection.left:
         left = 0;
